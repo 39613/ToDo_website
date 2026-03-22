@@ -5,13 +5,11 @@ import App from "./app/App.jsx";
 import { Card } from "./card/Card.jsx";
 import { Header } from "./header/Header.jsx";
 
-import { Card2 } from "./test/Test.jsx";
-
+import { Card2 } from "./addTodoField/addTodoField.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <Header />
-    <Card2 />
-    <App />
+    {/* <Card2 /> */}
     <Card />
   </StrictMode>,
 );
