@@ -1,3 +1,26 @@
+*,
+*::before,
+*::after {
+  /* alles reseten*/
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
 body {
-  background-color: #31363F;
+  min-height: 100vh;
+  font-size: 1.6rem;
+}
+
+html {
+  /* de html Font size op 10 pixels zetten. 1rem => 10px */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #242424;
+
+
 }

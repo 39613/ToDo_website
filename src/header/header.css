@@ -1,0 +1,9 @@
+header {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+header>h2 {
+    border-bottom: solid 2px #dadada;
+}
