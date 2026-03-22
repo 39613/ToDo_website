@@ -2,6 +2,7 @@ import styles from "./card.module.css";
 import "./style.css";
 import { useState } from "react";
 import { useEffect } from "react";
+import { Card2 } from "../addTodoField/addTodoField.jsx";
 
 export function Card() {
   const [card, setCard] = useState(null);
@@ -11,8 +12,8 @@ export function Card() {
       .then((response) => response.json())
       .then((data) => {
         setCard(data);
-        console.log(data);
-        console.log(data[0][1]);
+        // console.log(data);
+        // console.log(data[0][1]);
       });
   }, []);
 
@@ -36,6 +37,11 @@ export function Card() {
         </ul>
       </div>
     ));
-    return <section className={styles.mainSection}>{test}</section>;
+    return (
+      <section className={styles.mainSection}>
+        <Card2 />
+        {test}
+      </section>
+    );
   }
 }
