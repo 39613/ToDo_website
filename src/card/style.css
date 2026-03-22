@@ -1,0 +1,16 @@
+.todo_status {
+    padding-top: 3rem;
+    font-style: oblique 60deg;
+}
+
+.todo_status {
+    color: red;
+}
+
+.pending {
+    color: orange;
+}
+
+.done {
+    color: green;
+}
