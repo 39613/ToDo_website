@@ -1,4 +1,10 @@
-# React + Vite
+# Todo website M7BO
+
+In deze Git-repository vindt u de code voor mijn beroepsopdracht voor module 7. Voor deze opdracht heb ik JSX, HTML, CSS en React gebruikt.
+
+![foto van de website](SS_van_de_Todo_Website.png)
+
+## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
