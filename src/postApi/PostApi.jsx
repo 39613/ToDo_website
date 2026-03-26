@@ -1,6 +1,3 @@
-import { useState } from "react";
-import { useEffect } from "react";
-
 export function Submit() {
   const Text = document.getElementById("todo-input").value;
   const Status = document.getElementById("todo-status").value;

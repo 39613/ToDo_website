@@ -4,13 +4,23 @@
 }
 
 .todo {
+    display: flex;
     color: red;
+    cursor: pointer;
 }
 
 .pending {
+    display: flex;
     color: orange;
+    cursor: pointer;
 }
 
 .done {
+    display: flex;
     color: green;
+    cursor: pointer;
+}
+
+.fa-solid {
+    cursor: pointer;
 }

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Epunda+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
 *,
 *::before,
 *::after {
@@ -17,6 +19,9 @@ html {
   /* de html Font size op 10 pixels zetten. 1rem => 10px */
   font-size: 62.5%;
   scroll-behavior: smooth;
+  color: #dadada;
+  font-family: Epunda Sans;
+
 }
 
 body {
